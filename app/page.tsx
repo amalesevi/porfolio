@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <header>
         <a href="#" className="logo-holder">
-            <div className="logo">L</div>
+            <div className="logo">AM</div>
             <div className="logo-text">Anthony Portfolio</div>
         </a>
         <nav>

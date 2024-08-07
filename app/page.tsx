@@ -191,36 +191,6 @@ export default function Home() {
                     <p>During my tenure with the Risque Software Development Group, I played a crucial role in developing, maintaining, and enhancing the Purdue University website responsible for managing campus-wide networking. Utilizing ASP.Net, C#, and Microsoft SQL, I collaborated with a team of 3-5 developers, depending on the time of year, to ensure seamless operation and continual improvement of the site's functionality.</p>
                 </article>
             </div>
-
-        </section>
-
-        <section className="bento container" id="projects">
-            <h2>
-                <small>
-                    Previous
-                </small>
-                Completed Projects
-            </h2>
-            <div className="bento-grid">
-                <a href="#" className="bento-item">
-                    <img src="./images/bento-1.jpg" alt="" width="100%" />
-                </a>
-                <a href="#" className="bento-item">
-                    <img src="./images/bento-2.jpg" alt="" width="100%" />
-                </a>
-                <a href="#" className="bento-item">
-                    <img src="./images/bento-3.jpg" alt="" width="100%" />
-                </a>
-                <a href="#" className="bento-item">
-                    <img src="./images/bento-5.jpg" alt="" width="100%" />
-                </a>
-                <a href="#" className="bento-item">
-                    <img src="./images/bento-6.jpg" alt="" width="100%" />
-                </a>
-                <a href="#" className="bento-item">
-                    <img src="./images/bento-7.jpg" alt="" width="100%" />
-                </a>
-            </div>
         </section>
     </main>
     </>

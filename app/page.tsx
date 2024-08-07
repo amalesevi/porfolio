@@ -64,18 +64,34 @@ export default function Home() {
                     <img src="./images/php.png" alt="PHP" width="128px" />
                     <img src="./images/csharp.png" alt="C#" width="128px" />
                     <img src="./images/python.png" alt="Python" width="128px" />
-                    <img src="./images/blender.png" alt="Blender" width="128px" />
-                    <img src="./images/phpstorm.png" alt="PHP" width="128px" />
+                    <img src="./images/phpstorm.png" alt="PHPStorm" width="128px" />
+                    <img src="./images/mysql.png" alt="MySQL" width="128px" />
                     <img src="./images/vscode.png" alt="VS Code" width="128px" />
+                    <img src="./images/bootstrap.png" alt="Bootstrap" width="128px" />
+                    <img src="./images/lua.png" alt="Lua" width="128px" />
+                    <img src="./images/aspnet.png" alt="Asp.Net" width="128px" />
+                    <img src="./images/mssql.png" alt="Micosoft SQL" width="128px" />
+                    <img src="./images/yii2.png" alt="Yii 2" width="128px" />
+                    <img src="./images/docker.png" alt="Docker" width="128px" />
+                    <img src="./images/git.png" alt="Git" width="128px" />
+                    <img src="./images/github.png" alt="GitHub" width="128px" />
                     <img src="./images/html.png" alt="HTML" width="128px" />
                     <img src="./images/css.png" alt="CSS" width="128px" />
                     <img src="./images/javascript.png" alt="Javascript" width="128px" />
                     <img src="./images/php.png" alt="PHP" width="128px" />
                     <img src="./images/csharp.png" alt="C#" width="128px" />
                     <img src="./images/python.png" alt="Python" width="128px" />
-                    <img src="./images/blender.png" alt="Blender" width="128px" />
-                    <img src="./images/phpstorm.png" alt="PHP" width="128px" />
+                    <img src="./images/phpstorm.png" alt="PHPStorm" width="128px" />
+                    <img src="./images/mysql.png" alt="MySQL" width="128px" />
                     <img src="./images/vscode.png" alt="VS Code" width="128px" />
+                    <img src="./images/bootstrap.png" alt="Bootstrap" width="128px" />
+                    <img src="./images/lua.png" alt="Lua" width="128px" />
+                    <img src="./images/aspnet.png" alt="Asp.Net" width="128px" />
+                    <img src="./images/mssql.png" alt="Micosoft SQL" width="128px" />
+                    <img src="./images/yii2.png" alt="Yii 2" width="128px" />
+                    <img src="./images/docker.png" alt="Docker" width="128px" />
+                    <img src="./images/git.png" alt="Git" width="128px" />
+                    <img src="./images/github.png" alt="GitHub" width="128px" />
                 </div>
             </div>
         </section>

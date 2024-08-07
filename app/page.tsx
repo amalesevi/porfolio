@@ -21,7 +21,6 @@ export default function Home() {
             <ul id="menu" className={menuOpen ? "active" : ""}>
                 <li><a href="#">Home</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="mailto:amalesevi@gmail" className="button">Contact Me</a></li>
             </ul>
             <a href="#" className="menu-toggle" onClick={toggleMenu}>

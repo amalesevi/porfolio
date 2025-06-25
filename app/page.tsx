@@ -42,8 +42,10 @@ export default function Home() {
                         <a href="mailto:amalesevi@gmail.com" className="button white">Contact Me</a>
                     </div>
                     <div className="social-icons">
-                        <a href="#">
+                        <a href="https://github.com/amalesevi">
                             <img src="./images/github.png" alt="Github" width="48px" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/anthony-malesevic-94b15a2b/">
                             <img src="./images/linkedin.png" alt="LinkedIn" width="48px" />
                         </a>
                     </div>
@@ -74,6 +76,9 @@ export default function Home() {
                     <img src="./images/docker.png" alt="Docker" width="128px" />
                     <img src="./images/git.png" alt="Git" width="128px" />
                     <img src="./images/github.png" alt="GitHub" width="128px" />
+                    <img src="./images/nodejs.png" alt="NodeJS" width="128px" />
+                    <img src="./images/reactjs.png" alt="React" width="128px" />
+                    <img src="./images/mongodb.png" alt="MongoDB" width="128px" />
                     <img src="./images/html.png" alt="HTML" width="128px" />
                     <img src="./images/css.png" alt="CSS" width="128px" />
                     <img src="./images/javascript.png" alt="Javascript" width="128px" />
@@ -91,6 +96,9 @@ export default function Home() {
                     <img src="./images/docker.png" alt="Docker" width="128px" />
                     <img src="./images/git.png" alt="Git" width="128px" />
                     <img src="./images/github.png" alt="GitHub" width="128px" />
+                    <img src="./images/nodejs.png" alt="NodeJS" width="128px" />
+                    <img src="./images/reactjs.png" alt="React" width="128px" />
+                    <img src="./images/mongodb.png" alt="MongoDB" width="128px" />
                 </div>
             </div>
         </section>
@@ -137,6 +145,9 @@ export default function Home() {
                         <li>Python</li>
                         <li>React</li>
                         <li>Next JS</li>
+                        <li>MongoDB</li>
+                        <li>Express</li>
+                        <li>NodeJS</li>
                         <li>Visual Basic</li>
                     </ul>
                 </div>
@@ -163,7 +174,7 @@ export default function Home() {
                     </figure>
                     <h3>Drivrz Financial</h3>
                     <div>Dec 2021 - May 2024</div>
-                    <p>At Drivrz Financial, I worked in both collaborative multi-developer teams and independently as the sole developer. I engaged in the full Software Development Life Cycle (SDLC) process and followed Agile methodologies, including sprint planning and daily stand-ups. As I progressed in my role, I became the primary developer, taking on responsibilities such as interviewing and training junior developers.</p>
+                    <p>At Drivrz Financial, I worked in both collaborative multi-developer teams and independently as the lead developer. I engaged in the full Software Development Life Cycle (SDLC) process and followed Agile methodologies, including sprint planning and daily stand-ups. As I progressed in my role, I became the lead developer, taking on responsibilities such as interviewing and training junior developers.</p>
                     <p>During my tenure, I worked closely with Business Analysts to analyze business requirements and design efficient solutions. Key projects included reworking the permissions system, redesigning the dealer experience, implementing drag-and-drop functionality, and modernizing the document upload process. My contributions ensured that the solutions met business needs while maintaining high efficiency and functionality.</p>
                 </article>
                 <article>

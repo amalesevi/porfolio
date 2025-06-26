@@ -33,9 +33,9 @@ export default function Home() {
         <section className="hero container">
             <div className="hero-blue">
                 <div>
-                    <h1><small>Hi, I'm</small> Anthony Malesevic</h1>
+                    <h1><small>Hi, I&apos;m</small> Anthony Malesevic</h1>
                     <p>
-                        I'm a Full Stack Developer who has worked in PHP for over 10 years and in C#/.Net prior to that. <span>I love to dabble in side projects in the game design, AI, 3D modeling, and video editing spaces.</span>
+                        I&apos;m a Full Stack Developer who has worked in PHP for over 10 years and in C#/.Net prior to that. <span>I love to dabble in side projects in the game design, AI, 3D modeling, and video editing spaces.</span>
                     </p>
                     <div className="call-to-action">
                         <a href="./docs/resume.pdf" className="button black">View Resume</a>
@@ -43,62 +43,62 @@ export default function Home() {
                     </div>
                     <div className="social-icons">
                         <a href="https://github.com/amalesevi">
-                            <img src="./images/github.png" alt="Github" width="48px" />
+                            <Image src="/images/github.png" alt="Github" width={48}  height={0} />
                         </a>
                         <a href="https://www.linkedin.com/in/anthony-malesevic-94b15a2b/">
-                            <img src="./images/linkedin.png" alt="LinkedIn" width="48px" />
+                            <Image src="/images/linkedin.png" alt="LinkedIn" width={48}  height={0} />
                         </a>
                     </div>
                 </div>
             </div>
             <div className="hero-green">
-                <img src="./images/Attempt_3.png" alt="Anthony Malesevic" width="100%" />
+                <Image src="/images/Attempt_3.png" alt="Anthony Malesevic" layout="fill" objectFit="contain" />
             </div>
         </section>
 
         <section className="logos container">
             <div className="marquee">
                 <div className="track">
-                    <img src="./images/html.png" alt="HTML" width="128px" />
-                    <img src="./images/css.png" alt="CSS" width="128px" />
-                    <img src="./images/javascript.png" alt="Javascript" width="128px" />
-                    <img src="./images/php.png" alt="PHP" width="128px" />
-                    <img src="./images/csharp.png" alt="C#" width="128px" />
-                    <img src="./images/python.png" alt="Python" width="128px" />
-                    <img src="./images/phpstorm.png" alt="PHPStorm" width="128px" />
-                    <img src="./images/mysql.png" alt="MySQL" width="128px" />
-                    <img src="./images/vscode.png" alt="VS Code" width="128px" />
-                    <img src="./images/bootstrap.png" alt="Bootstrap" width="128px" />
-                    <img src="./images/lua.png" alt="Lua" width="128px" />
-                    <img src="./images/aspnet.png" alt="Asp.Net" width="128px" />
-                    <img src="./images/mssql.png" alt="Micosoft SQL" width="128px" />
-                    <img src="./images/yii2.png" alt="Yii 2" width="128px" />
-                    <img src="./images/docker.png" alt="Docker" width="128px" />
-                    <img src="./images/git.png" alt="Git" width="128px" />
-                    <img src="./images/github.png" alt="GitHub" width="128px" />
-                    <img src="./images/nodejs.png" alt="NodeJS" width="128px" />
-                    <img src="./images/reactjs.png" alt="React" width="128px" />
-                    <img src="./images/mongodb.png" alt="MongoDB" width="128px" />
-                    <img src="./images/html.png" alt="HTML" width="128px" />
-                    <img src="./images/css.png" alt="CSS" width="128px" />
-                    <img src="./images/javascript.png" alt="Javascript" width="128px" />
-                    <img src="./images/php.png" alt="PHP" width="128px" />
-                    <img src="./images/csharp.png" alt="C#" width="128px" />
-                    <img src="./images/python.png" alt="Python" width="128px" />
-                    <img src="./images/phpstorm.png" alt="PHPStorm" width="128px" />
-                    <img src="./images/mysql.png" alt="MySQL" width="128px" />
-                    <img src="./images/vscode.png" alt="VS Code" width="128px" />
-                    <img src="./images/bootstrap.png" alt="Bootstrap" width="128px" />
-                    <img src="./images/lua.png" alt="Lua" width="128px" />
-                    <img src="./images/aspnet.png" alt="Asp.Net" width="128px" />
-                    <img src="./images/mssql.png" alt="Micosoft SQL" width="128px" />
-                    <img src="./images/yii2.png" alt="Yii 2" width="128px" />
-                    <img src="./images/docker.png" alt="Docker" width="128px" />
-                    <img src="./images/git.png" alt="Git" width="128px" />
-                    <img src="./images/github.png" alt="GitHub" width="128px" />
-                    <img src="./images/nodejs.png" alt="NodeJS" width="128px" />
-                    <img src="./images/reactjs.png" alt="React" width="128px" />
-                    <img src="./images/mongodb.png" alt="MongoDB" width="128px" />
+                    <Image src="/images/html.png" alt="HTML" width={128}  height={0} />
+                    <Image src="/images/css.png" alt="CSS" width={128}  height={0} />
+                    <Image src="/images/javascript.png" alt="Javascript" width={128}  height={0} />
+                    <Image src="/images/php.png" alt="PHP" width={128}  height={0} />
+                    <Image src="/images/csharp.png" alt="C#" width={128}  height={0} />
+                    <Image src="/images/python.png" alt="Python" width={128}  height={0} />
+                    <Image src="/images/phpstorm.png" alt="PHPStorm" width={128}  height={0} />
+                    <Image src="/images/mysql.png" alt="MySQL" width={128}  height={0} />
+                    <Image src="/images/vscode.png" alt="VS Code" width={128}  height={0} />
+                    <Image src="/images/bootstrap.png" alt="Bootstrap" width={128}  height={0} />
+                    <Image src="/images/lua.png" alt="Lua" width={128}  height={0} />
+                    <Image src="/images/aspnet.png" alt="Asp.Net" width={128}  height={0} />
+                    <Image src="/images/mssql.png" alt="Micosoft SQL" width={128}  height={0} />
+                    <Image src="/images/yii2.png" alt="Yii 2" width={128}  height={0} />
+                    <Image src="/images/docker.png" alt="Docker" width={128}  height={0} />
+                    <Image src="/images/git.png" alt="Git" width={128}  height={0} />
+                    <Image src="/images/github.png" alt="GitHub" width={128}  height={0} />
+                    <Image src="/images/nodejs.png" alt="NodeJS" width={128}  height={0} />
+                    <Image src="/images/reactjs.png" alt="React" width={128}  height={0} />
+                    <Image src="/images/mongodb.png" alt="MongoDB" width={128}  height={0} />
+                    <Image src="/images/html.png" alt="HTML" width={128}  height={0} />
+                    <Image src="/images/css.png" alt="CSS" width={128}  height={0} />
+                    <Image src="/images/javascript.png" alt="Javascript" width={128}  height={0} />
+                    <Image src="/images/php.png" alt="PHP" width={128}  height={0} />
+                    <Image src="/images/csharp.png" alt="C#" width={128}  height={0} />
+                    <Image src="/images/python.png" alt="Python" width={128}  height={0} />
+                    <Image src="/images/phpstorm.png" alt="PHPStorm" width={128}  height={0} />
+                    <Image src="/images/mysql.png" alt="MySQL" width={128}  height={0} />
+                    <Image src="/images/vscode.png" alt="VS Code" width={128}  height={0} />
+                    <Image src="/images/bootstrap.png" alt="Bootstrap" width={128}  height={0} />
+                    <Image src="/images/lua.png" alt="Lua" width={128}  height={0} />
+                    <Image src="/images/aspnet.png" alt="Asp.Net" width={128}  height={0} />
+                    <Image src="/images/mssql.png" alt="Micosoft SQL" width={128}  height={0} />
+                    <Image src="/images/yii2.png" alt="Yii 2" width={128}  height={0} />
+                    <Image src="/images/docker.png" alt="Docker" width={128}  height={0} />
+                    <Image src="/images/git.png" alt="Git" width={128}  height={0} />
+                    <Image src="/images/github.png" alt="GitHub" width={128}  height={0} />
+                    <Image src="/images/nodejs.png" alt="NodeJS" width={128}  height={0} />
+                    <Image src="/images/reactjs.png" alt="React" width={128}  height={0} />
+                    <Image src="/images/mongodb.png" alt="MongoDB" width={128}  height={0} />
                 </div>
             </div>
         </section>
@@ -154,7 +154,7 @@ export default function Home() {
                 <div className="right-column">
                     <h3>A bit about me</h3>
                     <p>I began my journey into web development in the 10th grade, exploring basic early 90s websites. Finding the tasks too simple, I pushed myself to learn more, diving into JavaScript and exceeding expectations. My passion for coding led me to work as a programmer for CSPAN and Purdue University during college. Initially majoring in Actuarial Science, I discovered my true calling in IT, prompting me to change my major.</p>
-                    <p>Since then, I've gained experience as a PHP/Lua Developer at MacAllister Machinery and as a PHP Developer at Drivrz Financial. My love for coding has only grown, and in my spare time, I explore various technologies, including Python, React, Next.js, Blender, and Davinci Resolve. This continuous learning fuels my passion and keeps me excited about the ever-evolving field of technology.</p>
+                    <p>Since then, I&apos;ve gained experience as a PHP/Lua Developer at MacAllister Machinery and as a PHP Developer at Drivrz Financial. My love for coding has only grown, and in my spare time, I explore various technologies, including Python, React, Next.js, Blender, and Davinci Resolve. This continuous learning fuels my passion and keeps me excited about the ever-evolving field of technology.</p>
                 </div>
             </div>
         </section>
@@ -168,7 +168,7 @@ export default function Home() {
                 <article>
                     <figure>
                         <div>
-                            <img src="./images/df.png" alt="Drivrz Financial" width="100%" />
+                            <Image src="/images/df.png" alt="Drivrz Financial" layout="fill" />
                             <figcaption>Drivrz Financial</figcaption>
                         </div>
                     </figure>
@@ -180,25 +180,25 @@ export default function Home() {
                 <article>
                     <figure>
                         <div>
-                            <img src="./images/macallister.png" alt="MacAllister Machinery" width="100%" />
+                            <Image src="/images/macallister.png" alt="MacAllister Machinery" layout="fill" />
                             <figcaption>MacAllister Machiner</figcaption>
                         </div>
                     </figure>
                     <h3>MacAllister Machinery</h3>
                     <div>Dec 2014 - Oct 2021</div>
-                    <p>At MacAllister Machinery, I leveraged my skills in Lua and the LAMP stack to develop and enhance features for an ERP system, which was later implemented company-wide. My role included administering Atlassian products such as JIRA and Confluence. Additionally, I maintained and updated the company's intranet using VB.Net, C#, and Microsoft SQL.</p>
-                    <p>Our development process was a blend of waterfall and agile methodologies, involving the creation of functional and technical specifications along with biweekly scrum meetings. I collaborated closely with Subject Matter Experts (SMEs) and other business members to ensure our solutions effectively met the company's needs.</p>
+                    <p>At MacAllister Machinery, I leveraged my skills in Lua and the LAMP stack to develop and enhance features for an ERP system, which was later implemented company-wide. My role included administering Atlassian products such as JIRA and Confluence. Additionally, I maintained and updated the company&apos;s intranet using VB.Net, C#, and Microsoft SQL.</p>
+                    <p>Our development process was a blend of waterfall and agile methodologies, involving the creation of functional and technical specifications along with biweekly scrum meetings. I collaborated closely with Subject Matter Experts (SMEs) and other business members to ensure our solutions effectively met the company&apos;s needs.</p>
                 </article>
                 <article>
                     <figure>
                         <div>
-                            <img src="./images/risque.png" alt="Risque Software Development Group" width="100%" />
+                            <Image src="/images/risque.png" alt="Risque Software Development Group" layout="fill" />
                             <figcaption>Risque Software Development Group</figcaption>
                         </div>
                     </figure>
                     <h3>Risque Software Development Group</h3>
                     <div>Aug 2013 - Dec 2014</div>
-                    <p>During my tenure with the Risque Software Development Group, I played a crucial role in developing, maintaining, and enhancing the Purdue University website responsible for managing campus-wide networking. Utilizing ASP.Net, C#, and Microsoft SQL, I collaborated with a team of 3-5 developers, depending on the time of year, to ensure seamless operation and continual improvement of the site's functionality.</p>
+                    <p>During my tenure with the Risque Software Development Group, I played a crucial role in developing, maintaining, and enhancing the Purdue University website responsible for managing campus-wide networking. Utilizing ASP.Net, C#, and Microsoft SQL, I collaborated with a team of 3-5 developers, depending on the time of year, to ensure seamless operation and continual improvement of the site&apos;s functionality.</p>
                 </article>
             </div>
         </section>

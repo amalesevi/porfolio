@@ -15,7 +15,7 @@ export default function Home() {
       <header>
         <a href="#" className="logo-holder">
             <div className="logo">AM</div>
-            <div className="logo-text">Anthony Portfolio</div>
+            <div className="logo-text">Anthony's Portfolio</div>
         </a>
         <nav>
             <ul id="menu" className={menuOpen ? "active" : ""}>
@@ -33,9 +33,9 @@ export default function Home() {
         <section className="hero container">
             <div className="hero-blue">
                 <div>
-                    <h1><small>Hi, I&apos;m</small> Anthony Malesevic</h1>
+                    <h1><small>Hello, I&apos;m</small> Anthony Malesevic</h1>
                     <p>
-                        I&apos;m a Full Stack Developer who has worked in PHP for over 10 years and in C#/.Net prior to that. <span>I love to dabble in side projects in the game design, AI, 3D modeling, and video editing spaces.</span>
+                        I&apos;m a senior web developer with over 10 years of experience, focused on PHP, JavaScript, HTML/CSS, and recently building up modern frontend skills with React. Most of my work has been in finance and internal business systems, where I’ve helped redesign critical tools and collaborated closely with cross-functional teams to deliver real-world solutions. I enjoy picking up new technologies and turning complex requests into clean, efficient results.
                     </p>
                     <div className="call-to-action">
                         <a href="./docs/resume.pdf" className="button black">View Resume</a>
@@ -43,10 +43,10 @@ export default function Home() {
                     </div>
                     <div className="social-icons">
                         <a href="https://github.com/amalesevi">
-                            <Image src="/images/github.png" alt="Github" width={48}  height={0} />
+                            <Image src="/images/github.png" alt="Github" width={48}  height={48} />
                         </a>
                         <a href="https://www.linkedin.com/in/anthony-malesevic-94b15a2b/">
-                            <Image src="/images/linkedin.png" alt="LinkedIn" width={48}  height={0} />
+                            <Image src="/images/linkedin.png" alt="LinkedIn" width={48}  height={48} />
                         </a>
                     </div>
                 </div>
@@ -153,8 +153,10 @@ export default function Home() {
                 </div>
                 <div className="right-column">
                     <h3>A bit about me</h3>
-                    <p>I began my journey into web development in the 10th grade, exploring basic early 90s websites. Finding the tasks too simple, I pushed myself to learn more, diving into JavaScript and exceeding expectations. My passion for coding led me to work as a programmer for CSPAN and Purdue University during college. Initially majoring in Actuarial Science, I discovered my true calling in IT, prompting me to change my major.</p>
-                    <p>Since then, I&apos;ve gained experience as a PHP/Lua Developer at MacAllister Machinery and as a PHP Developer at Drivrz Financial. My love for coding has only grown, and in my spare time, I explore various technologies, including Python, React, Next.js, Blender, and Davinci Resolve. This continuous learning fuels my passion and keeps me excited about the ever-evolving field of technology.</p>
+                    <p>I&apos;ve been passionate about web development since the 10th grade, when I began experimenting with basic HTML websites. As I explored further, I found the basics too limiting and quickly moved on to learning JavaScript, enjoying the challenge of building more dynamic and interactive experiences.</p>
+                    <p>During college, I worked as a programmer for CSPAN and Purdue University. I originally majored in Actuarial Science, but it became clear that my interests were rooted in technology, so I changed my major to pursue a career in IT.</p>
+                    <p>Over the years, I&apos;ve contributed to a range of web applications in the finance and business sectors. I take pride in writing clean, maintainable code and enjoy working on projects that solve meaningful problems for users and teams alike.</p>
+                    <p>Outside of work, I continue to learn and grow by exploring tools and frameworks like React, Next.js, and Python. I also enjoy working creatively with Blender and DaVinci Resolve. Staying curious and adaptable is what keeps me excited about technology and the future of this field.</p>
                 </div>
             </div>
         </section>
@@ -168,37 +170,38 @@ export default function Home() {
                 <article>
                     <figure>
                         <div>
-                            <Image src="/images/df.png" alt="Drivrz Financial" layout="fill" />
+                            <Image src="/images/df.png" alt="Drivrz Financial" layout="responsive" width={400} height={300} />
                             <figcaption>Drivrz Financial</figcaption>
                         </div>
                     </figure>
                     <h3>Drivrz Financial</h3>
                     <div>Dec 2021 - May 2024</div>
-                    <p>At Drivrz Financial, I worked in both collaborative multi-developer teams and independently as the lead developer. I engaged in the full Software Development Life Cycle (SDLC) process and followed Agile methodologies, including sprint planning and daily stand-ups. As I progressed in my role, I became the lead developer, taking on responsibilities such as interviewing and training junior developers.</p>
-                    <p>During my tenure, I worked closely with Business Analysts to analyze business requirements and design efficient solutions. Key projects included reworking the permissions system, redesigning the dealer experience, implementing drag-and-drop functionality, and modernizing the document upload process. My contributions ensured that the solutions met business needs while maintaining high efficiency and functionality.</p>
+                    <p>At Drivrz Financial, I contributed to both collaborative Agile development teams and independent projects, ultimately serving as the Lead PHP Developer. My work spanned the full Software Development Life Cycle (SDLC), including sprint planning, daily stand-ups, code reviews, and deployments. I helped onboard and mentor a junior developer and collaborated closely with Business Analysts to translate business requirements into scalable and maintainable technical solutions using PHP, Yii2, JavaScript, AJAX, and jQuery.</p>
+                    <p>Key projects included refactoring the role-based permissions system, redesigning the dealer-facing interface for improved UX, implementing drag-and-drop functionality with JavaScript, and modernizing the document upload process using Amazon S3 integration. These efforts enhanced system performance, improved user experience, and increased internal workflow efficiency across the platform.</p>
                 </article>
                 <article>
                     <figure>
                         <div>
-                            <Image src="/images/macallister.png" alt="MacAllister Machinery" layout="fill" />
-                            <figcaption>MacAllister Machiner</figcaption>
+                            <Image src="/images/macallister.png" alt="MacAllister Machinery" layout="responsive" width={400} height={300} />
+                            <figcaption>MacAllister Machinery</figcaption>
                         </div>
                     </figure>
                     <h3>MacAllister Machinery</h3>
                     <div>Dec 2014 - Oct 2021</div>
-                    <p>At MacAllister Machinery, I leveraged my skills in Lua and the LAMP stack to develop and enhance features for an ERP system, which was later implemented company-wide. My role included administering Atlassian products such as JIRA and Confluence. Additionally, I maintained and updated the company&apos;s intranet using VB.Net, C#, and Microsoft SQL.</p>
-                    <p>Our development process was a blend of waterfall and agile methodologies, involving the creation of functional and technical specifications along with biweekly scrum meetings. I collaborated closely with Subject Matter Experts (SMEs) and other business members to ensure our solutions effectively met the company&apos;s needs.</p>
+                    <p>At MacAllister Machinery, I contributed to the full software development lifecycle by designing, developing, and enhancing ERP system features using Lua and the LAMP stack, resulting in a company-wide deployment. I administered Atlassian tools including JIRA and Confluence to streamline project management and documentation. Additionally, I maintained and updated the corporate intranet leveraging VB.Net, C#, and Microsoft SQL Server to support internal business operations.</p>
+                    <p>Our development process combined waterfall and agile methodologies, incorporating the creation of detailed functional and technical specifications, and participation in biweekly scrum ceremonies. I collaborated cross-functionally with Subject Matter Experts (SMEs) and key business stakeholders to deliver solutions aligned with company objectives.</p>
                 </article>
                 <article>
                     <figure>
                         <div>
-                            <Image src="/images/risque.png" alt="Risque Software Development Group" layout="fill" />
+                            <Image src="/images/risque.png" alt="Risque Software Development Group" layout="responsive" width={400} height={300} />
                             <figcaption>Risque Software Development Group</figcaption>
                         </div>
                     </figure>
                     <h3>Risque Software Development Group</h3>
                     <div>Aug 2013 - Dec 2014</div>
-                    <p>During my tenure with the Risque Software Development Group, I played a crucial role in developing, maintaining, and enhancing the Purdue University website responsible for managing campus-wide networking. Utilizing ASP.Net, C#, and Microsoft SQL, I collaborated with a team of 3-5 developers, depending on the time of year, to ensure seamless operation and continual improvement of the site&apos;s functionality.</p>
+                    <p>At Risque Software Development Group, I played an integral role in the full software development lifecycle for Purdue University&apos;s campus-wide networking management website. Utilizing ASP.Net, C#, and Microsoft SQL Server, I developed, maintained, and enhanced key features to ensure high availability and performance of the platform. Working collaboratively within a cross-functional team of 3–5 developers, I participated in code reviews, troubleshooting, and iterative improvements based on user feedback.</p>
+                    <p>I contributed to technical documentation and adhered to best practices in version control, testing, and deployment to maintain site reliability and security. This role demanded close coordination with university IT stakeholders to align enhancements with operational needs and campus-wide network policies.</p>
                 </article>
             </div>
         </section>

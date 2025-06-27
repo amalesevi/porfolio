@@ -15,7 +15,7 @@ export default function Home() {
       <header>
         <a href="#" className="logo-holder">
             <div className="logo">AM</div>
-            <div className="logo-text">Anthony's Portfolio</div>
+            <div className="logo-text">Anthony&apos;s Portfolio</div>
         </a>
         <nav>
             <ul id="menu" className={menuOpen ? "active" : ""}>
